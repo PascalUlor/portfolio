@@ -13,6 +13,16 @@
   	margin: 0;
   }
 
+  .sitewrap{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .title {
+    color: #ffffff
+  }
+
   .backdrop {
   	position: fixed;
   	display: none;
