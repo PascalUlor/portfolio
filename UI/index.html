@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pascal Ulor</title>
+  <link rel="shortcut icon" href="favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <!--Jquery Step Start-->
+  <link rel="stylesheet" href="./public/css/normalize.css">
+  <link rel="stylesheet" href="./public/css/steps.css">
+  <link rel="stylesheet" href="./public/css/jquery.steps.css">
+  <script src="./public/lib/modernizr-2.6.2.min.js"></script>
+  <script src="./public/lib/jquery-1.9.1.min.js"></script>
+  <script src="./public/lib/jquery.cookie-1.3.1.js"></script>
+  <script src="./public/lib/jquery.steps.js"></script>
+
+  <link rel="stylesheet" href="./public/css/main.css">
+</head>
+
+<body>
+  <div class="backdrop"></div>
+  <header>
+    <div>
+      <!-- Mobile Nav button -->
+      <button class="toggle-button">
+        <span class="toggle-button__bar"></span>
+        <span class="toggle-button__bar"></span>
+        <span class="toggle-button__bar"></span>
+      </button>
+
+    </div>
+    <!-- <nav class="main-nav">
+      <ul class="main-nav__items">
+        <li class="main-nav__item">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="login.html">Login</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="create-request.html">Services</a>
+        </li>
+        <li class="main-nav__item nav_button">
+          <a href="signup.html">Get Started</a>
+        </li>
+      </ul>
+    </nav> -->
+
+  </header>
+  <!-- Side nav for mobile -->
+  <nav class="mobile-nav" id="aside">
+    <ul class="mobile-nav__items">
+      <li class="mobile-nav__item">
+          <img src="./public/img/profile.jpg">
+      </li>
+      <li class="mobile-nav__item">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a href="create-request.html">Views</a>
+      </li>
+      <li class="mobile-nav__item mobile-nav_button">
+        <a href="signup.html">Events</a>
+      </li>
+    </ul>
+  </nav>
+  <main class="sitewrapp">
+    <!-- <section id="landing-page-text">
+      <h1>Pascal Ulor</h1>
+      
+    </section> -->
+    <section class="outline">
+        <aside class="aside-nav" id="aside">
+            <ul class="aside__items">
+              <li class="aside__item">
+                <img src="./public/img/profile.jpg">
+              </li>
+              <li class="aside__item">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="aside__item">
+                <a href="create-request.html">Views</a>
+              </li>
+              <li class="aside__item nav_button">
+                <a href="signup.html">Events</a>
+              </li>
+            </ul>
+        </aside>
+
+        <div class="content">
+            <h1>Portfolio</h1>
+    
+            <script>
+                $(function ()
+                {
+                    $("#wizard").steps({
+                        headerTag: "h2",
+                        bodyTag: "section",
+                        transitionEffect: "slideLeft"
+                    });
+                });
+            </script>
+    
+            <div id="wizard">
+                <h2>About Me</h2>
+                <section>
+                    <p><b>Pascal Ulor</b> is a <b>Software Engineer</b> with over two years of experience in
+                    the <b>tech industry</b>.
+                    Presently I am a <b>Learning Facilitator</b> at Code Lagos where I train people
+                    on programming and Web Development</p>.
+                    <p></p>
+                    <h3>Some highlights of my competencies are</h3>
+                    <ul>
+                      <li>Full Stack Web Development</li>
+                      <li>Search Engine Optimization, Digital Marketing</li>
+                      <li>Expert in data analysis and visualization (Excel, PowerBI, Tableau, R)</li>
+                      <li>Ability to setup an efficient CMS and CRM database</li>
+                      <li>Special talent for researching and writing articles for promotional publishing</li>
+                    </ul>
+                </section>
+    
+                <h2>Experience</h2>
+                <section>
+                  <div id="job1">
+                    <div>
+                        <h2>Learning Facilitator</h2>
+                        <small>Code Lagos</small>
+                    </div>
+                       <small class="badge">Jun 2018 – Present</small>
+                  </div>
+
+                  <div id="job2">
+                    <div>
+                        <h2>BUSINESS ANALYST</h2>
+                        <small>SlimTrader Limited</small>
+                    </div>
+                       <small class="badge">Aug 2016 – June 2017	</small>
+                  </div>
+
+                  <div id="job3">
+                    <div>
+                        <h2>SEO CONTENT SPECIALIST</h2>
+                        <small>Hotelnownow.com</small>
+                    </div>
+                       <small class="badge">Mar 2016- Jul 2016</small>
+                  </div>
+                </section>
+    
+                <h2>Projects</h2>
+                <section>
+                    <p>The Following are linkz some of the projects I have worked on:</p>
+
+                    <div id="job3">
+                        <div  class="job">
+                          <a href="https://pc-connect.herokuapp.com/">
+                              <h2>WeConnect</h2>
+                              <small>A business listing and linking application</small>
+                          </a>
+                        </div>
+                    </div>
+
+                    <div id="job3">
+                        <div  class="job">
+                          <a href="https://maintenance-software.herokuapp.com/">
+                              <h2>Maintenance Tracker</h2>
+                              <small>An application to track repairs and maintenance</small>
+                          </a>
+                        </div>
+                    </div>
+                    <div id="job3">
+                      <p>See my Github Repository for more</p>
+                      <div  id="git" class="job">
+                        <a class="githubBtn smGlobalBtn" href="https://github.com/PascalUlor" ></a>
+                      </div>
+                    </div>
+
+                </section>
+    
+                <h2>Contact</h2>
+                <section>
+                    <p>Let's talk or meet up</p>
+                    <div>
+                      <p><a class="phBtn smGlobalBtn" href="#"></a>08069568494</p>
+                      <p><a class="envBtn smGlobalBtn" href="#"></a>pascalulor@yahoo.com</p>
+                      <p><a class="mapBtn smGlobalBtn" href="#"></a>Lagos, Nigeria</p>
+                    </div>
+                        <br/>
+                        <div id="social">
+                            <a class="facebookBtn smGlobalBtn" href="https://web.facebook.com/Pascal.Ulor" ></a>
+                            <a class="twitterBtn smGlobalBtn" href="https://twitter.com/DonPascalai" ></a>
+                            <a class="googleplusBtn smGlobalBtn" href="https://plus.google.com/u/0/107073649484017852354" ></a>
+                            <a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/pascal-ulor-a4381295/" ></a>
+                            <a class="igBtn smGlobalBtn" href="https://www.instagram.com/pc_ulor/?hl=en" ></a>
+                          </div>
+                </section>
+            </div>
+        </div>
+
+    </section>
+    
+  </main>
+  <footer id="landing-page-footer">
+    <nav>
+      <ul class="footer-links">
+        <li class="footer-link">
+          <a href="#">Support</a>
+        </li>
+        <li class="footer-link">
+          <a href="#">Terms of Use</a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="./public/js/main.js"></script>
+</body>
+
+</html>
