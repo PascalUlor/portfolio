@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Yantramanav');
 @import url('https://fonts.googleapis.com/css?family=Philosopher');
-@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+/* @import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'); */
 	
 	/* Nav and Footer Styling */
 
@@ -11,6 +11,16 @@
   body {
   	font-family: 'Monserrat', sans-serif;
   	margin: 0;
+  }
+
+  .sitewrap{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .title {
+    color: #ffffff
   }
 
   .backdrop {
@@ -404,10 +414,6 @@
     background: #4060A5;
 }
 
-.facebookBtn:before{ /* use :before to add the relevant icons */
-    font-family: "FontAwesome";
-    content: "\f09a"; /* add facebook icon */
-}
 
 .facebookBtn:hover{
     color: #4060A5;
@@ -420,11 +426,6 @@
     background: #00ABE3;
 }
 
-.twitterBtn:before{
-      font-family: "FontAwesome";
-      content: "\f099"; /* add twitter icon */
-      
-}
 
 .twitterBtn:hover{
       color: #00ABE3;
@@ -437,10 +438,6 @@
     background: #e64522;
 }
 
-.googleplusBtn:before{
-      font-family: "FontAwesome";
-      content: "\f0d5"; /* add googleplus icon */
-}
 
 .googleplusBtn:hover{
       color: #e64522;
@@ -451,11 +448,6 @@
 /* linkedin button class*/
 .linkedinBtn{
     background: #0094BC;
-}
-
-.linkedinBtn:before{
-      font-family: "FontAwesome";
-      content: "\f0e1"; /* add linkedin icon */
 }
 
 .linkedinBtn:hover{
@@ -517,11 +509,6 @@
     background: #e88845;
 }
 
-.githubBtn:before{
-      font-family: "FontAwesome";
-      content: "\f09b"; /* add rss icon */
-}
-
 .githubBtn:hover{
       color: #45e868;
       background: #fff;
@@ -533,10 +520,7 @@
   background: #e88845;
 }
 
-.igBtn:before{
-    font-family: "FontAwesome";
-    content: "\f16d"; /* add rss icon */
-}
+
 
 .igBtn:hover{
     color: #e84596;
